@@ -4,13 +4,33 @@ const CardTwo = () => {
       <div className="hero-content flex-col lg:flex-row">
         <img src="industry-iot.webp" className="w-1/2 rounded-lg" />
         <div>
-          <h1 className="text-5xl font-bold">Box Office News!</h1>
-          <p className="py-6">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-            excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
-            a id nisi.
+          <h1 className="text-6xl font-semibold mb-3">Industrial IoT</h1>
+          <h1 className="text-4xl font-medium">Providing a better connected experience</h1>
+          <p className="py-6 text-xl">
+            Revolutionize your industry with our innovative IoT solutions. Our
+            software development services offer connected manufacturing,
+            pollution control, smart transportation, and intelligent farming,
+            agriculture, and forestry. With our expertise, you can harness the
+            power of technology to increase efficiency, reduce waste, and
+            optimize operations for a sustainable future.
           </p>
-          <button className="btn btn-primary">Get Started</button>
+          <button className="btn btn-outline rounded-full border-white">
+            See full case Study
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-4 w-4"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z"
+              />
+            </svg>
+          </button>
         </div>
       </div>
     </div>

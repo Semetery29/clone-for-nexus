@@ -43,7 +43,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+        <img src="geeks-logo-white.svg" className="ml-4" alt="" />
       </div>
       <div className="navbar-end hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
@@ -72,24 +72,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-{
-  /* <li>
-                <a>Home</a>
-              </li>
-              <li>
-                <a>Works</a>
-              </li>
-              <li>
-                <a>Technologies</a>
-              </li>
-              <li>
-                <a>Services</a>
-              </li>
-              <li>
-                <a>Company</a>
-              </li>
-              <li>
-                <a>Contacts</a>
-              </li> */
-}
