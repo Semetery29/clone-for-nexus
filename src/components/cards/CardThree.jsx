@@ -3,16 +3,21 @@ const CardThree = () => {
     <div className="hero p-32 md:max-h-[1290] bg-base-200">
       <div className="hero-content flex-col lg:flex-row">
         <img src="industry-education.webp" className="w-1/2 rounded-lg" />
-        <div>
+        <div className="pl-6">
           <h1 className="text-6xl font-semibold mb-3">Smart Education</h1>
           <h1 className="text-4xl font-medium">
             Elevate your Education Institution
           </h1>
-          <p className="py-6 text-xl">
+          <p className="mt-4">
+            <span className="px-3 py-1 rounded-full text-white bg-neutral mr-2">Learning Management</span>
+            <span className="px-3 py-1 rounded-full text-white bg-neutral mr-2">Course Offering</span>
+            <span className="px-3 py-1 rounded-full text-white bg-neutral mr-2">Personal Training</span>
+          </p>
+          <p className="py-4 text-xl text-justify">
             Elevate your education institution with our comprehensive software
             solutions. Learning management, course offerings, professional
             training, certification, and school management tools to streamline
-            your operations and enhance your students' learning experience.
+            your operations and enhance your students learning experience.
             Trust us to provide the cutting-edge technology and support you need
             to thrive in the ever-evolving education industry.
           </p>

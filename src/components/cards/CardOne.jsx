@@ -3,10 +3,15 @@ const CardOne = () => {
     <div className="hero p-32 md:max-h-[1290] bg-base-200">
       <div className="hero-content flex-col lg:flex-row-reverse">
         <img src="industry-fintech.svg" className="w-1/2 rounded-lg " />
-        <div>
+        <div className="pr-6">
           <h1 className="text-6xl font-semibold mb-3">Fintech Solution</h1>
           <h1 className="text-4xl font-medium">Transforming Fintech with AI</h1>
-          <p className="py-6 text-xl">
+          <p className="mt-4">
+            <span className="px-3 py-1 rounded-full text-white bg-neutral mr-2">Fraud Detection</span>
+            <span className="px-3 py-1 rounded-full text-white bg-neutral mr-2">Transaction categorisation</span>
+            <span className="px-3 py-1 rounded-full text-white bg-neutral mr-2">Risk Scoring</span>
+          </p>
+          <p className="py-4 text-xl text-justify">
             Empower your financial institution with our advanced fintech
             solutions. From real-time fraud detection to easy bookkeeping, our
             software development services provide credit risk scoring for
@@ -15,7 +20,7 @@ const CardOne = () => {
             assets
           </p>
           <button className="btn btn-outline rounded-full border-white">
-            See full case{" "}
+            See full case Study{" "}
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-4 w-4"
